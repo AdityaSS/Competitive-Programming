@@ -1,4 +1,4 @@
-/* Here an Array is given, we need to find triplets such that, (index of i > index of j > index of k) and a[i] > a[j] > a[k].
+</* Here an Array is given, we need to find triplets such that, (index of i < index of j < index of k) and a[i] < a[j] < a[k].
  * Time Complexity---> O(n).  Space Complexity--->O(1)
  */
 public class SortedSequence {
