@@ -16,15 +16,20 @@ public class PairCheck {
 	}
 
 	/*
-	 * private static String Pairfind(int[] list,int n) { int sum = n; String
-	 * result = null; HashMap<Integer, Integer> map = new HashMap<Integer,
-	 * Integer>(); for (int i = 0; i < list.length; i++) { int remainder = sum -
-	 * list[i]; if (map.containsKey(remainder)) { result = ("Pair is " +
-	 * remainder + " and " + list[i]); } else { map.put(list[i], list[i]); }
-	 * 
-	 * } return result;
-	 * 
-	 * }
+	 private static String Pairfind(int[] list,int n) { 
+	 int sum = n; 
+	 String result = null; 
+	 HashMap<Integer, Integer> map = new HashMap<Integer,Integer>(); 
+	 for (int i = 0; i < list.length; i++) { 
+	 int remainder = sum - list[i]; 
+	 if (map.containsKey(remainder)) { 
+	 result = ("Pair is " + remainder + " and " + list[i]); 
+	 } else { 
+	 map.put(list[i], list[i]); 
+	 }
+	 } 
+	 return result;
+	 }
 	 */
 	private static String Pairfind(int[] list, int n) {
 		int sum = n;
