@@ -1,3 +1,7 @@
+/*
+Check if a String has Duplicate character present.
+*/
+
 import java.util.Scanner;
 
 public class uniqueChecker {
