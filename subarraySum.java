@@ -1,5 +1,5 @@
 /* Here an unsorted array and a sum is given, we need to find the sub array such that the sum of the sub array is equal  
- * to sum. If no such sub array exists we will return not found else we will retun starting index and ending index.
+ * to given sum. If no such sub array exists we will return not found else we will retun starting index and ending index.
  * Time Complexity------> O(2N)=O(n).
  */
 public class subarraySum {
