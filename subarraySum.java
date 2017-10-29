@@ -2,7 +2,7 @@
  * to given sum. If no such sub array exists we will return not found else we will retun starting index and ending index.
  * Time Complexity------> O(2N)=O(n).
  */
-public class subarraySum {
+public class findsubarray {
 
 	public static void main(String[] args) {
 		int[] a = {15, 2, 4, 8, 9, 5, 10, 1};
